@@ -1,17 +1,20 @@
+ 
 a:link {text-decoration: none;
-    color: white;
+    color: #FFF3E2;
 font-size: 20px;
 }
 a:visited {text-decoration: none;
-    color: black;
+    color: #e88307 ;
+
 }
 a:hover {text-decoration: none;
-    color: black;}
+    color: #FFF3E2}
 a:active {text-decoration: none;
-    color: black;
+    color: #FFF3E2;
 }
-a{
-    color: white;
+a{text-decoration: none;
+    color: #FFF3E2;
+    font-size: 20px;
 }
 
 
@@ -28,7 +31,7 @@ a{
 
     .btn-info{
         border-radius: 15px;
-        background-color: #FFB2AA;
+        background-color: #262626;
         margin: 50px;
         margin-top: 20px;
         height: 40px;
@@ -51,14 +54,40 @@ a{
    #titulo{
         display: flex;
         justify-content: center;
-        font-size: 80px;
+        font-size: 5em;
         color: #FFF3E2;
         margin-top: 20px;
 }
   
   #texto{
-    font-size: 20px;
-    margin-left: 20px;
+    font-size: 1.5em;
     color: #FFF3E2;
 
   }
+
+header{
+background-color:#044182  ;
+height: 70px;
+width: 100%;
+display: flex;
+justify-content: center;
+padding-bottom: 10px;
+}
+     footer{
+background-color:#262626 ;
+height: 4em;
+  position: fixed;
+  bottom: 0;
+width: 100%;
+display: flex;
+justify-content: center;
+justify-items: center;
+padding: 0px;
+ }
+
+ .lista{
+    font-size: 2em;
+    margin-left: 40px;
+    color: #FFF3E2;
+
+ }
